@@ -6,7 +6,7 @@ let voices;
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-  setTimeout(() => populateVoices(), 50);
+  setTimeout(() => populateVoices(), 2500);
   bindListeners();
 }
 
